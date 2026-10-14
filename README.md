@@ -1,4 +1,27 @@
-\# Programming RVL 2026 Repository pengumpulan tugas Programming untuk tim riset robotik. ## Tugas 1 — Robot Simulator (OOP C++) Program simulasi robot sederhana menggunakan C++ dengan menerapkan empat pilar Object-Oriented Programming (OOP): - Encapsulation - Inheritance - Polymorphism - Abstraction \*\*File:\*\* `Tugas1/robot\_simulator.cpp` ## Tugas 2 — Forward Kinematics Manual Perhitungan posisi end effector pada lengan robot 2 DOF berdasarkan parameter berikut: | Parameter | Nilai | |---|---| | L1 | 10 cm | | L2 | 5 cm | | θ1 | 30° | | θ2 | 10° | Hasil perhitungan manual dilampirkan dalam bentuk gambar. !\[Perhitungan Manual Tugas 2](Tugas\_2/TUGAS\_2.jpeg) ## Tugas 3 — Implementasi Forward Kinematics C++ Implementasi rumus forward kinematics menggunakan C++ untuk menghitung koordinat posisi end effector \\((x,y)\\) berdasarkan panjang lengan dan sudut yang diberikan. \*\*File:\*\* `Tugas3/forward\_kinematics.cpp` Program menggunakan library `<cmath>` untuk perhitungan trigonometri.
+# Tugas Programming RVL 2026
 
+## Tugas 1 — Project OOP C++
 
+**Robot Simulator**
 
+Program simulasi robot sederhana menggunakan C++ yang menerapkan konsep Object-Oriented Programming (OOP), seperti encapsulation, inheritance, polymorphism, dan abstraction.
+
+## Tugas 2 — Perhitungan Posisi End Effector
+
+Menghitung posisi end effector dari lengan robot 2 DOF menggunakan rumus forward kinematics sesuai modul.
+
+Parameter:
+- L1 = 10 cm
+- L2 = 5 cm
+- θ1 = 30°
+- θ2 = 10°
+
+Hasil perhitungan manual dilampirkan pada bagian Tugas 2.
+
+## Tugas 3 — Implementasi C++
+
+Mengimplementasikan rumus forward kinematics dari Tugas 2 ke dalam program C++ untuk menghitung koordinat x dan y end effector.
+
+Program menggunakan fungsi trigonometri `sin()` dan `cos()` dari library `<cmath>`, dengan konversi sudut dari derajat ke radian.
+
+Hasil program dibandingkan dengan perhitungan manual pada Tugas 2.
